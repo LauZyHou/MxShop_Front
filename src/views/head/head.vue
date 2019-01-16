@@ -213,7 +213,7 @@ export default {
           getCategory({
             params:{}
           }).then((response)=> {
-                    console.log(response)
+                    // console.log(response)
                     this.allMenuLabel = response.data
                 })
                 .catch(function (error) {
